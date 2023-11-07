@@ -1,8 +1,7 @@
-const numero = 3;
-
+// variaveis
 const num1 = 1;
 const num2 = 2;
-
+// operadores
 const operasoesmetematicas = num1 / num2;
 
 console.log(operasoesmetematicas);
