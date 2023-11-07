@@ -1,4 +1,4 @@
-# matematica javastript
+# matematica javascript
 Math.round(): Faz o arredondamento (round em inglês) de um número de ponto flutuante para o inteiro mais próximo.
 
 Math.round(4.3) retorna 4
