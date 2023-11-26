@@ -1,4 +1,4 @@
-# matematica javascript
+# calculo e operasoes no javascript
 O arredondamento de um número de ponto flutuante para o número inteiro mais próximo é feito com math.round().
 
 
