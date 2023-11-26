@@ -1,0 +1,37 @@
+# FOR E LOOPS EM JAVASTRIPOT
+FOR classico
+A forma mais “clássica” de se efetuar um loop em JavaScript e em várias outras
+linguagens, o for é muito conveniente pois pode ser utilizado com qualquer
+tipo de iterável e é construído de uma forma que deixa muito claro quais são
+todas as “fases” de cada loop - também chamamos um loop de laço de repetição ou de iteração.
+
+O que é um iterável
+representa uma sequência de elementos que pode ser percorrida (ou seja, iterada) 
+utilizando ferramentas próprias para isso.
+É importante fazer uma distinção entre array e iterável, pois nem todo método que 
+funciona em um array vai funcionar em outros iteráveis - veremos isso em seguida.
+
+
+uma variável contadora, que é criada antes do início do laço (let indice);
+uma expressão de teste (indice < lista.length),
+que é executada antes de cada iteração e que verifica se o código dentro do bloco {} deve ou não ser executado;
+por último, uma expressão que é executada ao final de cada laço, normalmente um incremento (++) ou decremento (--) da variável contadora.
+
+É possível, inclusive, usar o for para executar algoritmos mais complexos, que também não seriam possíveis com outros métodos,
+
+foR of
+O forof pode ser executado utilizando qualquer tipo de iterável: além de arrays, strings, sets (conjuntos) e maps (mapas ou dicionários) são considerados objetos iteráveis.
+um iterável, aqui, representa uma sequência de elementos que pode ser percorrida (ou seja, iterada) utilizando o for…of. É importante fazer esta distinção entre array e iterável,
+A diferença principal e mais visível entre o for e o for…of é que o anterior dá muito mais controle sobre de que forma o laço de repetição ocorre. Por exemplo,
+ vimos que no for é possível manipular de forma mais fina todas as condicionais; já no for…of as condições são mais “fixas”: elemento se refere a cada elemento (ou item) do array 
+  e o loop sempre ocorre de forma sequencial, do primeiro elemento até o último.
+Em contrapartida, a sintaxe simplificada e mais “legível” para pessoas faz com que o uso do for…of seja mais prático do que o for,
+pois laços de repetição mais simplificados, que percorrem um iterável do primeiro ao último elemento
+
+forEach()
+cumprem o papel de iterar arrays, porém com funcionalidades e retornos bem definidos.
+No caso do forEach(), apesar da sintaxe bem diferente, podemos utilizar este método como o
+for ou o for…of, pois ele vai executar as instruções que forem 
+passadas para cada elemento iterado, sem retornar nenhum dado.
+utiliza a abordagem funcional de funções callback para executar o código necessário a cada elemento iterado no laço:
+O que é um método? Em programação, chamamos de método uma função que é propriedade de um objeto.
